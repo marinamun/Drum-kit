@@ -1,7 +1,6 @@
 body {
   background-image: url(drums.jpg);
   background-size: cover;
-  
 }
 .keys {
   margin-top: 100px;
@@ -16,12 +15,11 @@ body {
   margin-right: 25px;
   font-family: "Glegoo", serif;
   background-color: white;
-  filter: drop-shadow(0 0 0.75rem #B847F1);
+  filter: drop-shadow(0 0 0.75rem #b847f1);
 }
 .key:hover {
   transform: scale(1.1); /* Scale up to 110% when hovered */
 }
-
 
 h1 {
   text-align: center;
@@ -35,21 +33,19 @@ h1 {
   margin-bottom: 0px;
   background-color: #dc9bff;
   border: 2px solid white;
-    filter: drop-shadow(0 0 0.75rem white);
-    border-radius: 20px;
-
-  
+  filter: drop-shadow(0 0 0.75rem white);
+  border-radius: 20px;
 }
-h3{
-    margin-top: 20px;
-     text-align: center;
+h3 {
+  margin-top: 20px;
+  text-align: center;
   font-family: "Glegoo", serif;
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
 #credits {
-    margin-top: 130px;
+  margin-top: 130px;
   text-align: center;
   font-size: 10px;
   line-height: 1px;
@@ -60,10 +56,9 @@ h3{
   color: white;
   text-decoration: none;
 }
-#credits:hover{
+#credits:hover {
   font-size: 12px;
 }
 #credits a:hover {
   font-size: 12px;
-  
 }
